@@ -1,0 +1,47 @@
+Test Case Name: Verify Lead Creation and Conversion to Opportunity
+Objective: Ensure that a user can successfully create a new lead and convert that lead to an opportunity.
+
+Steps & Expected Results:
+1. Step: Launch the browser (Chrome / Edge / Firefox / Safari).
+Expected Result: User should see the respective browser getting launched.
+2. Step: Load the specified URL (https://login.salesforce.com/).
+Expected Result: The Salesforce application’s login window should appear.
+3. Step: Enter the Username, Password and click on the Login button.
+Expected Result: The user should be logged into Salesforce CRM
+4. Step: Click on the App Launcher toggle button.
+Expected Result: A list of apps should appear.
+5. Step: Click on the View All link. 
+Expected Result: The link should direct the user to the App Launcher pop up window.
+6. Step: Type ‘Marketing’ in the search box and click on the Marketing link.
+Expected Result: The link should direct the user to Marketing dashboard page. 
+7. Step: Navigate to the Leads tab from the Marketing dashboard.
+Expected Result: User should see a list of existing leads (if any) and options to create a new 
+lead.
+8. Step: Click on the New button to create a lead.
+Expected Result: A form to input details for the new lead should appear.
+9. Step: Fill in all the mandatory fields (Salutation, First Name, Last Name, Company) with valid 
+data.
+Expected Result: All details should be filled in without any errors.
+10. Step: Click on the Save button.
+Expected Result: A new lead should be created and user should be redirected to the detailed 
+view of the newly created lead. A confirmation message should also be displayed and verified.
+11. Step: In the newly created Lead page, locate the dropdown near Submit for Approval button and 
+click on the Convert link.
+Expected Result: The Convert link should be visible and clickable and a new dialog should 
+appear asking for details about converting the lead to an opportunity, contact, and an account.
+12. Step: Click on the Opportunity Name input field, clear and enter a new opportunity name.
+Expected Result: The entered value should appear.
+13. Step: Click on the Convert button.
+Expected Result: The lead should be successfully converted. A confirmation message ‘Your 
+lead has been converted’ should be displayed and verified.
+14. Step: Click on the Go to Leads button.
+Expected Result: It should redirect the user to Leads page.
+15. Step: Search the verified lead name in the Search box and verify the text ‘No items to display’.
+Expected Result: The lead should not be displayed as it has been converted to Opportunity and 
+should display the confirmation message.
+16. Step: Navigate to the Opportunities tab and search for the opportunity linked with the converted 
+lead.
+Expected Result: The newly converted opportunity should appear in the list with all the relevant 
+details correctly populated from the lead.
+17. Step: Search the opportunity name created and click on the created opportunity name.
+Expected Result: The created Opportunity Name should appear and verify the same.
